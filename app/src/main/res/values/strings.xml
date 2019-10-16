@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Inventory_app</string>
+    <!-- Label for overflow menu option that inserts fake product into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all products in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Products</string>
+
+    <!-- Label for editor menu option to save product and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current product [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current product [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current product was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_successful">product deleted</string>
+
+    <!-- Toast message in editor when current product has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_failed">Error with deleting product</string>
+
+    <!-- Toast message in Details to show product was saved [CHAR LIMIT=NONE] -->
+    <string name="editor_save_product_successful">product saved</string>
+
+    <!-- Toast message in editor when current product has failed to be saved [CHAR LIMIT=NONE] -->
+    <string name="editor_save_product_failed">Error with saving product</string>
+
+    <!-- Toast message in editor when current product was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_successful">Product updated</string>
+
+    <!-- Toast message in editor when current product has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_failed">Error with updating product</string>
+
+    <!-- Toast message in catalog when all products has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_products_failed">Error with deleting products</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current product [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this product?</string>
+
+    <!-- Dialog message to ask the user to confirm deleting all the products [CHAR LIMIT=NONE] -->
+    <string name="delete_all_products_dialog_msg">Delete all products?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current product [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current product [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <string name="product_out">product is out!, finished, please order new package</string>
+
+    <string name="order_from_supplier"> androd@gmail.com </string>
+
+    <string name="invalid_quantity_number"> please enter a number that greater than 0 </string>
+
+    <string name="price">$ </string>
+    <string name="quantity"> items left</string>
+
+</resources>
